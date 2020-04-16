@@ -30,7 +30,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,10 +44,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WordNet">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="Outcast" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Outcast" />
+      <module name="wordnet" />
+      <option name="PROGRAM_PARAMETERS" value="wordnet/outcast8.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SAP" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="SAP" />
+      <module name="wordnet" />
+      <option name="PROGRAM_PARAMETERS" value="wordnet/digraph1.txt" />
+      <method v="2" />
     </configuration>
     <configuration name="WordNet" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="WordNet" />
